@@ -1,6 +1,7 @@
 backend:
   name: github
-   repo: marieqg/netlify-cms-medium
+   repo: mjpagan/blog-gatsby
+   branch: master
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
