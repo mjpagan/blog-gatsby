@@ -1,6 +1,7 @@
 backend:
-  name: github
-  repo: mjpagan/blog-gatsby
+  name: git-gateway
+  #name: github
+  #repo: mjpagan/blog-gatsby
   branch: master
 
 # This line should *not* be indented
