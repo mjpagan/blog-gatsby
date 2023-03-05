@@ -2,8 +2,8 @@
 layout: blog
 title: Create a VM in Azure with a Uploaded Virtual Disk
 date: 2021-04-21T18:30:00.000Z
-img: /img/truenas-logon-header.png
 thumbnail: /img/truenas-logon-header.png
+img: /img/truenas-logon-header.png
 ---
 ## Introduction
 
