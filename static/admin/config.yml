@@ -23,3 +23,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "string"}
