@@ -1,15 +1,15 @@
 ---
 title: Create a VM in Azure with a Uploaded Virtual Disk
-date: "2017-08-19T22:40:32.169Z"
-template: "post"
+date: "2021-04-13T22:40:32.169Z"
+template: "blog"
 draft: false
-slug: "/posts/Create-a-VM-in-Azure-with-a-Uploaded-Virtual-Disk"
+slug: "/blog/Create-a-VM-in-Azure-with-a-Uploaded-Virtual-Disk"
 category: "Azure"
 tags:
   - "Azure"
   - "Infrastructure"
 description: "A walkthrough of taking an Hyper-V virtual disk and converting to be used in Azure"
-socialImage: "./images/step-4-truenas-logon.png"
+socialImage: "./img/step-4-truenas-logon.png"
 ---
 
 # Create a VM in Azure with a Uploaded Virtual Disk 
