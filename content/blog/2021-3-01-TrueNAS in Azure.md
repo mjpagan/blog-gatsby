@@ -9,7 +9,7 @@ tags:
   - "Azure"
   - "Infrastructure"
 description: "A walkthrough of taking an Hyper-V virtual disk and converting to be used in Azure"
-socialImage: "./img/step-4-truenas-logon.png"
+img: "./step-4-truenas-logon.png"
 ---
 
 # Create a VM in Azure with a Uploaded Virtual Disk 
