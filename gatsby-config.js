@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Flexible Gatsby`,
-    description: `I am a web developer focusing on front-end development. Always hungry to keep learning.`,
+    title: `vCraftsman Blog`,
+    description: `I am a solution architect focused on Microsoft techonlogies and security. I love techology and thought I'd find a place to share my thoughts.`,
     author: `Mike Pagan`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
