@@ -22,5 +22,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "array"}
       - {label: "Body", name: "body", widget: "markdown"}
-      #- {label: "Tags", name: "tags", widget: "string"}
