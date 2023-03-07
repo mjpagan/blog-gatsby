@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `vCraftsman Blog`,
-    description: `Solution architect on Microsoft techonlogies. Recently fascinated with cyber security. I love techology and it is time to share.`,
+    description: `Solution architect on Microsoft techonlogies. Currently fascinated with cyber security.`,
     author: `Mike Pagan`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
@@ -75,7 +75,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `./static/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `./static/vc-logo.jpg`, // This path is relative to the root of the site.
       },
     },
     // `gatsby-plugin-offline`,
