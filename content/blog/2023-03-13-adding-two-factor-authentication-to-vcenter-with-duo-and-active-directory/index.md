@@ -12,11 +12,11 @@ tags:
 
 ## Summary
 
-Adding multi-factor authentication you any service will make it instantly more secure. While its not built into vCenter, you can add it easily by signing up for a free Duo account and setting up a Linux server.
+Adding multi-factor authentication you any service will make it instantly more secure. While it's not built into vCenter, you can add it easily by signing up for a free Duo account and setting up a Linux server.
 
 ## Layout
 
-![image-20230312152211218](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312152211218.png)
+![duo-vcenter-mfa-01.png](/img/duo-vcenter-mfa-01.png)
 
 Here are the components needed to make this work:
 
@@ -28,12 +28,12 @@ Here are the components needed to make this work:
 
 ## Plan
 
-  [ ] Sign up for a free Duo account (10 users for free)
-- [ ] Configure Duo to authentication an application
-- [ ] Create a Active Directory user to connect vCenter to the domain
+- [ ] Sign up for a free Duo account (10 users for free)
+- [ ] Configure Duo to authenticate an application
+- [ ] Create an Active Directory user to connect vCenter to the domain
 - [ ] Configure Duo user(s)
 - [ ] Deploy a Linux server
-- [ ] Install Duo Proxy software on Linux server
+- [ ] Install Duo Proxy software on a Linux server
 - [ ] Configure Duo Proxy software
 - [ ] Configure vCenter to use Duo Proxy
 - [ ] Test!
