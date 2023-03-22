@@ -8,7 +8,6 @@ tags:
   - security
   - infrastructure
 ---
-# Adding Two Factor Authentication to vCenter with Duo and Active Directory
 
 ## Summary
 
