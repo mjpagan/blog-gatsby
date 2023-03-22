@@ -43,21 +43,21 @@ Here are the components needed to make this work:
 
 Go to https://duo.com/editions-and-pricing/duo-free and sign up for a free account. 
 
-![image-20230311225128115](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230311225128115.png)
+![Duo Free Trial Signup](/img/duo-vcenter-mfa-12.png)
 
 ## Configure Duo to authenticate an application
 
 In the Duo portal, in the left-hand menu bar click **Applications** > **Protect an Application**
 
-![image-20230312161810053](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312161810053.png)
+![Protect an Application](/img/duo-vcenter-mfa-10.png)
 
 On the **Protect and Application** page, type VMware in the search box, then **Protect**
 
-![image-20230312161907907](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312161907907.png)
+![Protect an Application](/img/duo-vcenter-mfa-09.png)
 
 Take note of your Integration key, Secret key, and API hostname, they will be used to configure your Duo Application Proxy software.
 
-![image-20230312161946472](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312161946472.png)
+![Duo Application Settings](/img/duo-vcenter-mfa-08.png)
 
 ## Create an Active Directory user to connect vCenter to the domain
 
@@ -65,7 +65,7 @@ Create a domain user in your domain for vCenter to talk to the domain. It does n
 
 Collect the distinguished name of the account as you will need it later.
 
-![image-20230312130053472](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312130053472.png)
+![Account Distinguished Name](/img/duo-vcenter-mfa-14.png)
 
 ## Configure Duo user
 
@@ -73,7 +73,7 @@ Add your vCenter admin user(s) and enroll them with the app or text messages.
 
 > If your internal domain is different than your public domain (domain.local vs domain.com for example), then add the internal username as an alias on your account.
 
-![image-20230311231502022](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230311231502022.png)
+![Duo Alias](/img/duo-vcenter-mfa-11.png)
 
 ## Create a Linux server VM
 
@@ -173,37 +173,37 @@ Login to your vCenter with your SSO admin account (typically administrator@vsphe
 
 Open the **Administration** menu
 
-![image-20230312192714499](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312192714499.png)
+![vCenter Administration](/img/duo-vcenter-mfa-16.png)
 
 Open the **Configuration** menu
 
-![image-20230312192742007](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312192742007.png)
+![vCenter Administration Configuration](/img/duo-vcenter-mfa-15.png)
 
 Add a new Identity Provider
 
-![image-20230312195915395](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312195915395.png)
+![New Identity](/img/duo-vcenter-mfa-07.png)
 
 Enter the information to match your environment, save your settings
 
-![image-20230312200551806](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312200551806.png)
+![LDAP Settings](/img/duo-vcenter-mfa-04.png)
 
 After the Identity Source is configured, we need to assign a role to a domain user or preferably a domain group. Open the Global Permissions menu.
 
-![image-20230312210852461](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312210852461.png)
+![Global Permissions](/img/duo-vcenter-mfa-17.png)
 
 Click Add
 
-![image-20230312211155847](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312211155847.png)
+![Add Global Permissions](/img/duo-vcenter-mfa-03.png)
 
 Use the drop-down to choose your Active Directory domain, search for the name of your user or group, select the role (typically Administrator), check the box for Propagate to children, then click OK.
 
-![image-20230312211431644](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312211431644.png)
+![Add Permission](/img/duo-vcenter-mfa-02.png)
 
 Now open a browser in "private" mode and try to log in with your Active Directory account. If that doesn't work, troubleshoot your identity settings.
 
 When the Active Directory login works correctly, edit your Identity Source and change your **Connect to** setting to point at your Duo Proxy server.
 
-![image-20230312200324518](C:\Users\MikePagan\AppData\Roaming\Typora\typora-user-images\image-20230312200324518.png)
+![LDAP from Duo Proxy](/img/duo-vcenter-mfa-05.png)
 
 ## Testing authentication
 
@@ -230,7 +230,8 @@ Hopefully, you have been able to add mutli-factor authentication to your vCenter
 References:
 
 - https://www.virtualizationhowto.com/2021/12/easy-vcenter-server-two-factor-authentication-without-adfs/
-- https://duo.com/docs/authproxy-overview
+- https://duo.com/docs/authproxy-overview
+
 
 
 
