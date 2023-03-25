@@ -2,7 +2,7 @@
 layout: blog
 title: Adding Two Factor Authentication to vCenter with Duo and Active Directory
 date: 2023-03-13T04:42:08.016Z
-img: duo-ad-wide.png
+img: duo-ad.jpg
 tags:
   - vmware
   - security
