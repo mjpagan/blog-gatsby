@@ -2,7 +2,7 @@
 layout: blog
 title: My CISSP Test Experience
 date: 2021-07-28T19:47:58.027Z
-img: cissp-banner-2.png
+img: cissp-logo-white-2lines.jpg
 tags:
   - certification
   - cybersecurity
