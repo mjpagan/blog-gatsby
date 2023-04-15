@@ -2,7 +2,7 @@
 layout: blog
 title: Creating a TrueNAS appliance in Azure
 date: 2021-04-13T20:59:35.417Z
-img: truenas-blog-header.jpg
+img: truenas-blog-header.png
 tags:
   - azure
 ---
