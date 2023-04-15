@@ -8,7 +8,7 @@ tags:
 ---
 
 
-## Introduction
+## Introduction 
 
 I recently had the chance to play around with IX Systems storage appliances and their storage operating system, TrueNAS. After installing it in a virtual machine and tinkering with some of the features, my interest was piqued. While scanning the product documentation, I noticed that there are instructions for deployment on AWS but none for Azure. I checked with support and they said there wasn't a technical limitation, they hadn't worked on getting it certified yet. That had me thinking about how would I go about making this work in Azure.
 
