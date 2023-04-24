@@ -29,4 +29,4 @@ Get-AdvancedSetting -Entity $vm -Name isolation.tools.setGUIOptions.enable | set
 
 I ran this on a virtual machine and I thought originally that it did not work as copy and paste was still not working. It turns out that this only works on the VMware Remote Console (installed console) and not the web console found in the VMware vSphere Web Client. 
 
-Source: [Disable Copy and Paste Operations Between Guest Operating System and Remote Console (vmware.com)](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-367D02C1-B71F-4AC3-AA05-85033136A667.html)
+Source: [Disable Copy and Paste Operations Between Guest Operating System and Remote Console (vmware.com)](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-367D02C1-B71F-4AC3-AA05-85033136A667.html) 
