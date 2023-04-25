@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `vCraftsman Blog`,
-    description: `Technologist. Microsoft Azure. Windows Server. Cybersecurity. Nerd.`,
+    description: `Microsoft Azure. Server Infrastructure. Virtualization. Cybersecurity. Nerdery.`,
     author: `Mike Pagan`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
