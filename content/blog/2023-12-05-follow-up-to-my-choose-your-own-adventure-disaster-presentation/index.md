@@ -1,14 +1,12 @@
 ---
 layout: blog
-title: Follow-up to my Choose Your Own Adventure Disaster Presentation
+title: Follow-up to my Choose Your Own Disaster Presentation
 date: 2023-12-05T18:31:08.404Z
 img: chose-your-own-adventure-tree.jpg
 tags:
   - security
   - presentation
 ---
-# Follow-up to my Choose Your Own Adventure ~~Disaster~~ Presentation
-
 I had a lot of fun sharing this presentation at nVision. The audience was invested and participated which made things engaging and fun. Year after year I am thrilled to see new and returning customers come to see my presentations. I know draw it’s the technical content but secretly I hope it’s the jokes :) 
 
 If you wanted to view watch the presentation it will be posted online soon with the slides. We will share the link when it is ready.
