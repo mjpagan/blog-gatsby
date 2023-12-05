@@ -41,7 +41,7 @@ Source: https://ofac.treasury.gov/recent-actions/20201001
 
 An open-source project has created a map to keep track of various states laws and regulations: https://isitlegaltopay.com/
 
-![Is ](\img\image-20231115163648138.png) It Legal To Pay
+![Is  It Legal To Pay](static/img/image-20231115163648138.png)
 
 ## Be Prepared - Planning
 
